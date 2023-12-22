@@ -11,20 +11,22 @@ const MainSec = () => {
             <h1 className="font-roboto text-2xl font-[500] leading-8 ">
               Daily Task
             </h1>
-            <div className="flex">
+            <div className="flex items-center gap-10">
               <div className="font-roboto text-sm font-normal">
                 <span className="font-[600]">3/11</span> Task Completed
-              <div className="h-2 w-full bg-gray-200 rounded-full">
-                <div
-                  className="h-full bg-[#FF0032] rounded-full"
-                  style={{ width: `${60}%` }}
+                <div className="h-2 w-full bg-gray-200 rounded-full mt-1">
+                  <div
+                    className="h-full bg-[#FF0032] rounded-full"
+                    style={{ width: `${60}%` }}
                   ></div>
-                  </div>
+                </div>
               </div>
-              view All
+              <div className="font-roboto text-base font-medium">View All</div>
             </div>
           </div>
+
         </div>
+        
       </div>
     </div>
   );
